@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url('https://images8.alphacoders.com/124/1243956.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  color: black;
+}
+
+.pokemon-list {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+.pokemon-list h1 {
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  gap: 20px;  
+}
+
+.card {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333; 
+  text-transform: capitalize;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #007bff; 
+  color: white; 
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #0056b3; 
+}
+
+.pokemon-detail {
+  min-height: 100vh; 
+  background-image: url('https://images8.alphacoders.com/124/1243956.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff; 
+}
+
+.pokemon-detail-card {
+  max-width: 400px; 
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px; 
+}
+
+.pokemon-detail-card h1 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.pokemon-detail-card img {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+}
+
+.pokemon-detail-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-detail-card li {
+  margin: 10px 0;
+  color: #333;
+}
